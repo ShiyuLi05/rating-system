@@ -1,0 +1,45 @@
+@charset "utd-8";
+body {
+    background-color: #1a1923;
+}
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+.center {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    width: auto;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+.stars {
+    width: auto;
+    height: 100%;
+}
+.star {
+    cursor: pointer;
+    margin-right: 15px;
+    color: #53535b;
+}
+h2 {
+    width: 325px;
+    height: auto;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+.yellow {
+    color: #f9dc4d;
+}
+.grey {
+    color: #53535b;
+}
