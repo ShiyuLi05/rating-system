@@ -1,13 +1,12 @@
 import { FaStar } from 'react-icons/fa';
 
-function Star({ starId }) {
+function Star({ func = f => f, isSelected}) {
     return (
-    
-      <div star-id={starId} role="button" className='stars'>
+      <div className='stars'>
         <FaStar
-            size={50} 
-            className='star'
-            
+            onClick={func}
+            color={isSelected ? '#f9dc4d' : '#53535b'}
+            size={50}
         />
       </div>
     
